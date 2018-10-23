@@ -1,13 +1,16 @@
 #include <stdio.h>
 
-int A,B,C,i;
+int A,B,C,i,n;
 
 int main (){
 
-    A=1; B=1;
-    printf("%d\n%d",A,B);
+    A=1; B=1; 
+    int n;
+    printf("Kacinci Fibonacci elemanina kadar bakmak istersiniz? : ");
+    scanf("%d'ye kadar olan, 3'e bolunebilen dizi elemanları bunlardir.",&n);
 
-    for (i=3; i<20; i++){
+    
+    for (i=3; i<n; i++){
 
         C=A+B;
         A=B;
